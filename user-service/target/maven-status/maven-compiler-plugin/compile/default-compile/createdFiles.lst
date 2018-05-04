@@ -1,0 +1,4 @@
+user\service\User.class
+user\service\UserRepository.class
+user\service\UserService.class
+user\service\UserController.class
