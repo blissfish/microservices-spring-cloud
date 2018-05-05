@@ -14,6 +14,7 @@ public class UserService implements CommandLineRunner {
 	private static final Logger log = LoggerFactory.getLogger(UserService.class);
 
 	public static void main(String args[]) {
+		log.info("************** Staring "+UserService.class.getName()+" ...");
 		SpringApplication.run(UserService.class, args);
 	}
 
